@@ -1,5 +1,4 @@
 console.log( '😀👍🍎' );
-
 // GSAP library
 // https://unpkg.co/gsap@3/dist/gsap.min.js
 
@@ -37,13 +36,18 @@ gsap.to(".two", {
 
 // Panel Three
 gsap.to(".three", {
-  scrollTrigger: "three"
+  scrollTrigger: "three",
+  letterSpacing: 1,
+  duration: 5
 });
 
 // Panel Four
-gsap.to(".four", {
+gsap.to(".four p", {
   scrollTrigger: "four",
-  color: "red"
+  color: "white",
+  duration: 3,
+  rotate: 360,
+  opacity: 1
 });
 
 // Panel Five
