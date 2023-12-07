@@ -57,19 +57,23 @@ body {
 .one h1 {
   animation: var(--animation-fade-in-bloom);
   font-size: 4em;
+  color: white;
 }
 
 .two {
   background: #9b9ace;
+  color: white;
 }
 
 .two p:hover {
   animation: var(--animation-fade-in-bloom);
+  color: white;
 }
 
 .three {
   background: #ef8b62;
   letter-spacing: 100px;
+  color: white;
 }
 
 .four {
