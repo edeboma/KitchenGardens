@@ -42,9 +42,10 @@ body {
   position: relative;
   box-sizing: border-box;
 
-  padding: 10em;
+  padding: 20em;
   font-size: 1.5em;
   border-radius: var(--radius-blob-5);
+
 }
 
 .one {
@@ -55,6 +56,7 @@ body {
 
 .one h1 {
   animation: var(--animation-fade-in-bloom);
+  font-size: 4em;
 }
 
 .two {
@@ -80,7 +82,7 @@ body {
 }
 
 .five img {
-  height: 100px;
+  height: 200px;
   animation: var(--animation-float);
   duration: loop;
   display: flex;
