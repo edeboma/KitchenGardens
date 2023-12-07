@@ -45,7 +45,7 @@ gsap.to(".three", {
 gsap.to(".four p", {
   scrollTrigger: "four",
   color: "white",
-  duration: 3,
+  duration: 30,
   rotate: 360,
   opacity: 1
 });
