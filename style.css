@@ -80,8 +80,11 @@ body {
 }
 
 .five img {
-  height: 200px;
+  height: 100px;
   animation: var(--animation-float);
   duration: loop;
+  display: flex;
+  justify-content: center;
+
 }
 /* You don't have to do 5 panels, make it your own */
